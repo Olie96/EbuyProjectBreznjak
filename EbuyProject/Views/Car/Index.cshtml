@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EbuyProject.ViewModels.CarViewModel>
+
+@{
+    ViewBag.Title = "Index";
+
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Car", FormMethod.Get))
+    {
+        @Html.TextBox("search") <input type="submit" value="Search Cars By Maker" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>Car Model</th>
+        <th>
+            @Html.ActionLink("Car Maker", "Index", new { sortBy = ViewBag.sortNameParameter, search = Request.QueryString["search"] })
+        </th>
+        <th>Car Year of Production</th>
+        <th>Car Kilometers</th>
+        <th>Car Price</th>
+        <th>Car Description</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarMaker)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarYearOfProduction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarKilometers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarDescription)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CarId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CarId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CarId })
+            </td>
+        </tr>
+    }
+
+</table>
+<input type="button" value="1" onclick="location.href='@Url.Action("Index", "Car", new { page = 1 } )'" />
+<input type="button" value="2" onclick="location.href='@Url.Action("Index", "Car", new { page = 2 } )'" />
+<input type="button" value="3" onclick="location.href='@Url.Action("Index", "Car", new { page = 3 } )'" />
+<!-- izmisliti bolji nacin numeriranja  -->

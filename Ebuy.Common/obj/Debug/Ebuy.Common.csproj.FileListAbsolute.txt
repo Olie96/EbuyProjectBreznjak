@@ -1,0 +1,40 @@
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.csprojResolveAssemblyReference.cache
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.dll.config
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\Ebuy.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\AutoMapper.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\Ninject.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\AutoMapper.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\bin\Debug\Ninject.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.csprojResolveAssemblyReference.cache
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Common\obj\Debug\Ebuy.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.dll.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\AutoMapper.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ninject.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\AutoMapper.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ninject.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.pdb

@@ -1,0 +1,28 @@
+﻿@using EbuyProject.ViewModels;
+@model dynamic
+@{
+    ViewBag.Title = "SportCategory";
+}
+
+<h2>SportCategory</h2>
+
+<h3>Sport</h3>
+<table class="table">
+
+    <tr>
+        <th>Sport Item Name</th>
+        <th>Sport Item Description</th>
+        <th>Sport Item Price</th>
+    </tr>
+    @foreach (SportViewModel item in Model.Sport)
+    {
+        <tr>
+            <td>@item.SportItemName</td>
+            <td>@item.SportItemDescription</td>
+            <td>@item.SportItemPrice</td>
+            <td> <input type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddSportToCart", "Cart", new { id = item.SportItemId })'" /></td>
+        </tr>
+    }
+
+
+</table>

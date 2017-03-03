@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EbuyDatabaseModelStoreContainer" CdmEntityContainer="EbuyDatabaseEntities">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Book">
+        <MappingFragment StoreEntitySet="Book">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="BookAuthorName" ColumnName="BookAuthorName" />
+          <ScalarProperty Name="BookAuthorSurname" ColumnName="BookAuthorSurname" />
+          <ScalarProperty Name="BookISBN" ColumnName="BookISBN" />
+          <ScalarProperty Name="BookGenre" ColumnName="BookGenre" />
+          <ScalarProperty Name="BookDescription" ColumnName="BookDescription" />
+          <ScalarProperty Name="BookPrice" ColumnName="BookPrice" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Car">
+        <MappingFragment StoreEntitySet="Car">
+          <ScalarProperty Name="CarId" ColumnName="CarId" />
+          <ScalarProperty Name="CarModel" ColumnName="CarModel" />
+          <ScalarProperty Name="CarMaker" ColumnName="CarMaker" />
+          <ScalarProperty Name="CarYearOfProduction" ColumnName="CarYearOfProduction" />
+          <ScalarProperty Name="CarKilometers" ColumnName="CarKilometers" />
+          <ScalarProperty Name="CarPrice" ColumnName="CarPrice" />
+          <ScalarProperty Name="CarDescription" ColumnName="CarDescription" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Cart">
+        <MappingFragment StoreEntitySet="Cart">
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+          <ScalarProperty Name="CartName" ColumnName="CartName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Electronics">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Electronic">
+        <MappingFragment StoreEntitySet="Electronic">
+          <ScalarProperty Name="ElectronicPartId" ColumnName="ElectronicPartId" />
+          <ScalarProperty Name="ElectronicPartName" ColumnName="ElectronicPartName" />
+          <ScalarProperty Name="ElectronicPartPrice" ColumnName="ElectronicPartPrice" />
+          <ScalarProperty Name="ElectronicPartDescription" ColumnName="ElectronicPartDescription" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musics">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Music">
+        <MappingFragment StoreEntitySet="Music">
+          <ScalarProperty Name="MusicPartId" ColumnName="MusicPartId" />
+          <ScalarProperty Name="MusicPartName" ColumnName="MusicPartName" />
+          <ScalarProperty Name="MusicPartDescription" ColumnName="MusicPartDescription" />
+          <ScalarProperty Name="MusicPartPrice" ColumnName="MusicPartPrice" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sports">
+      <EntityTypeMapping TypeName="EbuyDatabaseModel.Sport">
+        <MappingFragment StoreEntitySet="Sport">
+          <ScalarProperty Name="SportItemId" ColumnName="SportItemId" />
+          <ScalarProperty Name="SportItemName" ColumnName="SportItemName" />
+          <ScalarProperty Name="SportItemDescription" ColumnName="SportItemDescription" />
+          <ScalarProperty Name="SportItemPrice" ColumnName="SportItemPrice" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

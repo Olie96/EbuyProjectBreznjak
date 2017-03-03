@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "CheckoutConfirmation";
+}
+
+<h2>Congratulations</h2>
+
+<p class="alert alert-success" id="CheckoutSuccess">@TempData["CheckoutSuccess"] Your Order Has Been Placed</p>
+
+<div class="col-md-10">
+    <input type="button" value="Back To Shopping" onclick="location.href='@Url.Action("Index", "Cart")'" />
+</div>
+

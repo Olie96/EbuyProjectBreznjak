@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "RemovedFromCart";
+}
+
+<h2>Remove</h2>
+
+<p class="alert alert-warning" id="RemoveMessage">@TempData["Remove"] Your Item has been Removed</p>
+
+<div class="col-md-10">
+    <input type="button" value="Back To Cart" onclick="location.href='@Url.Action("GetCart", "Cart")'" />
+</div>

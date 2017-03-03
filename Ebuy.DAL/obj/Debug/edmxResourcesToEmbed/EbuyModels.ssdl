@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EbuyDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookName" Type="nchar" MaxLength="10" />
+    <Property Name="BookAuthorName" Type="nchar" MaxLength="10" />
+    <Property Name="BookAuthorSurname" Type="nchar" MaxLength="10" />
+    <Property Name="BookISBN" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookGenre" Type="nchar" MaxLength="10" />
+    <Property Name="BookDescription" Type="nvarchar(max)" />
+    <Property Name="BookPrice" Type="nchar" MaxLength="10" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="CarId" />
+    </Key>
+    <Property Name="CarId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CarModel" Type="nchar" MaxLength="10" />
+    <Property Name="CarMaker" Type="nchar" MaxLength="10" />
+    <Property Name="CarYearOfProduction" Type="nchar" MaxLength="10" />
+    <Property Name="CarKilometers" Type="nchar" MaxLength="10" />
+    <Property Name="CarPrice" Type="nchar" MaxLength="10" />
+    <Property Name="CarDescription" Type="nvarchar(max)" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="CartId" />
+    </Key>
+    <Property Name="CartId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CartName" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Electronic">
+    <Key>
+      <PropertyRef Name="ElectronicPartId" />
+    </Key>
+    <Property Name="ElectronicPartId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ElectronicPartName" Type="nchar" MaxLength="10" />
+    <Property Name="ElectronicPartPrice" Type="nchar" MaxLength="10" />
+    <Property Name="ElectronicPartDescription" Type="nvarchar(max)" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Music">
+    <Key>
+      <PropertyRef Name="MusicPartId" />
+    </Key>
+    <Property Name="MusicPartId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusicPartName" Type="nchar" MaxLength="10" />
+    <Property Name="MusicPartDescription" Type="nvarchar(max)" />
+    <Property Name="MusicPartPrice" Type="nchar" MaxLength="10" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sport">
+    <Key>
+      <PropertyRef Name="SportItemId" />
+    </Key>
+    <Property Name="SportItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SportItemName" Type="nchar" MaxLength="10" />
+    <Property Name="SportItemDescription" Type="nvarchar(max)" />
+    <Property Name="SportItemPrice" Type="nchar" MaxLength="10" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Book_Cart">
+    <End Role="Cart" Type="Self.Cart" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cart">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Car_Cart">
+    <End Role="Cart" Type="Self.Cart" Multiplicity="1" />
+    <End Role="Car" Type="Self.Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cart">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="Car">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Electronic_Cart">
+    <End Role="Cart" Type="Self.Cart" Multiplicity="1" />
+    <End Role="Electronic" Type="Self.Electronic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cart">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="Electronic">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Music_Cart">
+    <End Role="Cart" Type="Self.Cart" Multiplicity="1" />
+    <End Role="Music" Type="Self.Music" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cart">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="Music">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Music_Music">
+    <End Role="Music" Type="Self.Music" Multiplicity="1" />
+    <End Role="Music1" Type="Self.Music" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Music">
+        <PropertyRef Name="MusicPartId" />
+      </Principal>
+      <Dependent Role="Music1">
+        <PropertyRef Name="MusicPartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sport_Cart">
+    <End Role="Cart" Type="Self.Cart" Multiplicity="1" />
+    <End Role="Sport" Type="Self.Sport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cart">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="Sport">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EbuyDatabaseModelStoreContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Car" EntityType="Self.Car" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cart" EntityType="Self.Cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Electronic" EntityType="Self.Electronic" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Music" EntityType="Self.Music" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sport" EntityType="Self.Sport" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Book_Cart" Association="Self.FK_Book_Cart">
+      <End Role="Cart" EntitySet="Cart" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Car_Cart" Association="Self.FK_Car_Cart">
+      <End Role="Cart" EntitySet="Cart" />
+      <End Role="Car" EntitySet="Car" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Electronic_Cart" Association="Self.FK_Electronic_Cart">
+      <End Role="Cart" EntitySet="Cart" />
+      <End Role="Electronic" EntitySet="Electronic" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Music_Cart" Association="Self.FK_Music_Cart">
+      <End Role="Cart" EntitySet="Cart" />
+      <End Role="Music" EntitySet="Music" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Music_Music" Association="Self.FK_Music_Music">
+      <End Role="Music" EntitySet="Music" />
+      <End Role="Music1" EntitySet="Music" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sport_Cart" Association="Self.FK_Sport_Cart">
+      <End Role="Cart" EntitySet="Cart" />
+      <End Role="Sport" EntitySet="Sport" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

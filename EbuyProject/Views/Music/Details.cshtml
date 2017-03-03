@@ -1,0 +1,42 @@
+﻿@model EbuyProject.ViewModels.MusicViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MusicViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicPartName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicPartName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicPartDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicPartDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicPartPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicPartPrice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

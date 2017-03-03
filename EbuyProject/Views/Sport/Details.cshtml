@@ -1,0 +1,42 @@
+﻿@model EbuyProject.ViewModels.SportViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SportViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SportItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SportItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SportItemDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SportItemDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SportItemPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SportItemPrice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

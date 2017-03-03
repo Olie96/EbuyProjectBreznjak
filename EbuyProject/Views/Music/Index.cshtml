@@ -1,0 +1,55 @@
+﻿@model IEnumerable<EbuyProject.ViewModels.MusicViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Music", FormMethod.Get))
+    {
+        @Html.TextBox("search") <input type="submit" value="Search Items By Name" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Music Part Name", "Index", new { sortBy = ViewBag.sortNameParameter, search = Request.QueryString["search"] })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicPartDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicPartPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MusicPartName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MusicPartDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MusicPartPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.MusicPartId }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.MusicPartId  }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.MusicPartId  })
+        </td>
+    </tr>
+}
+
+</table>
+<input type="button" value="1" onclick="location.href='@Url.Action("Index", "Music", new { page = 1 } )'" />
+<input type="button" value="2" onclick="location.href='@Url.Action("Index", "Music", new { page = 2 } )'" />
+<input type="button" value="3" onclick="location.href='@Url.Action("Index", "Music", new { page = 3 } )'" />
+<!-- izmisliti bolji nacin numeriranja  -->

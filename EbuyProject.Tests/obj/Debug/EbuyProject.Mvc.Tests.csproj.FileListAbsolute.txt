@@ -1,0 +1,407 @@
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\ApplicationInsights.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\csc.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\vbc.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\WebActivatorEx.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Mvc.Tests.csprojResolveAssemblyReference.cache
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll.config
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Owin.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Mvc.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll.config
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Owin.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EbuyProject.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Service.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.DAL.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\bin\Debug\Ebuy.Model.pdb
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Mvc.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.dll
+C:\Users\Olie\Desktop\EbuyProject\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\ApplicationInsights.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\csc.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\vbc.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Helpers.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Mvc.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Razor.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\WebActivatorEx.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Optimization.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Owin.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.DAL.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Helpers.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Mvc.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Razor.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Optimization.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.DAL.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Mvc.Tests.csprojResolveAssemblyReference.cache
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\ApplicationInsights.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\csc.exe
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\vbc.exe
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.Tests.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\AutoMapper.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Helpers.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Mvc.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Razor.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\WebActivatorEx.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Optimization.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Owin.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.DAL.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EbuyProject.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\AutoMapper.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Common.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ninject.Web.Mvc.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Newtonsoft.Json.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Helpers.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Mvc.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Razor.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\System.Web.Optimization.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Service.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.DAL.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Repository.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\bin\Debug\Ebuy.Model.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Mvc.Tests.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\EbuyProject.Tests\obj\Debug\EbuyProject.Tests.pdb

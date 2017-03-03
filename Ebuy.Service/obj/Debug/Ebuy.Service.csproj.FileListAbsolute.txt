@@ -1,0 +1,130 @@
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.csprojResolveAssemblyReference.cache
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll.config
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.csprojResolveAssemblyReference.cache
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ninject.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ninject.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ninject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll.config
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ninject.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.DAL.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Model.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Repository.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ebuy.Service.Common.pdb
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\AutoMapper.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\bin\Debug\Ninject.xml
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.dll
+C:\Users\Ana\Documents\Visual Studio 2015\Projects\EbuyProject\Ebuy.Service\obj\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.DAL.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ninject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.DAL.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.csprojResolveAssemblyReference.cache
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.dll.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\AutoMapper.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.DAL.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ninject.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.DAL.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Model.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Repository.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ebuy.Service.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\AutoMapper.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\EntityFramework.SqlServer.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\bin\Debug\Ninject.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Service\obj\Debug\Ebuy.Service.pdb

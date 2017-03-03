@@ -1,0 +1,14 @@
+﻿@using EbuyProject.ViewModels
+@model dynamic
+@{
+    ViewBag.Title = "AddedToCart";
+}
+
+<h2>Success</h2>
+
+<p class="alert alert-success" id="succesMessage">@TempData["Success"] Your Item has been added to Cart </p>
+
+
+<div class="col-md-10">
+    <input type="button" value="Back To Shopping" onclick="location.href='@Url.Action("Index", "Cart")'" />
+</div>

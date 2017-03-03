@@ -1,0 +1,60 @@
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll.config
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\AutoMapper.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\AutoMapper.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll.config
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\AutoMapper.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\AutoMapper.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.csprojResolveAssemblyReference.cache
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.pdb
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ninject.dll
+C:\Users\Olie\Desktop\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ninject.dll
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.pdb
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\bin\Debug\Ninject.xml
+G:\SystemDocuments\Visual Studio 2015\Projects\EbuyProject\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll.config
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Repository.Test.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\AutoMapper.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\EntityFramework.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ninject.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.DAL.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.Common.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ebuy.Model.pdb
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\AutoMapper.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\EntityFramework.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\EntityFramework.SqlServer.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\bin\Debug\Ninject.xml
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.csprojResolveAssemblyReference.cache
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.dll
+H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Repository.Test\obj\Debug\Ebuy.Repository.Test.pdb

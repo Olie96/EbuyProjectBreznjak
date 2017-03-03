@@ -1,0 +1,42 @@
+﻿@model EbuyProject.ViewModels.ElectronicsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ElectronicsViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ElectronicPartName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ElectronicPartName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ElectronicPartDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ElectronicPartDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ElectronicPartPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ElectronicPartPrice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

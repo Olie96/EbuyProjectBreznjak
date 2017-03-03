@@ -1,0 +1,156 @@
+﻿@model EbuyProject.ViewModels.CartViewModel
+
+@{
+    ViewBag.Title = "Items In Cart";
+}
+
+<h2>Items In Cart</h2>
+
+<table class="table">
+@if (Model != null)
+{
+    if (Model.Cars != null)
+    {
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars)
+            </th>
+
+        </tr>
+
+        foreach (var car in Model.Cars)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => car.CarMaker)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => car.CarModel)
+                </td>
+                <td>
+                    @Html.ActionLink("Remove From Cart", "RemoveCarFromCart", new { id = car.CarId })
+                </td>
+            </tr>
+
+        }
+    }
+    if (Model.Books != null)
+    {
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Books)
+            </th>
+
+        </tr>
+
+        foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => book.BookAuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.BookAuthorSurname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.BookName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.BookDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.BookPrice)
+                </td>
+                <td>
+                    @Html.ActionLink("Remove From Cart", "RemoveBooksFromCart", new { id = book.BookId })
+                </td>
+            </tr>
+
+        }
+    }
+
+    if (Model.Musics != null)
+    {
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Musics)
+            </th>
+
+        </tr>
+
+        foreach (var item in Model.Musics)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MusicPartName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MusicPartDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MusicPartPrice)
+                </td>
+                <td>
+                    @Html.ActionLink("Remove From Cart", "RemoveMusicFromCart", new { id = item.MusicPartId })
+                </td>
+            </tr>
+        }
+    }
+
+    if (Model.Sports != null)
+    {
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sports)
+            </th>
+
+        </tr>
+
+        foreach (var item in Model.Sports)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SportItemName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SportItemDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SportItemPrice)
+                </td>
+                <td>
+                    @Html.ActionLink("Remove From Cart", "RemoveSportFromCart", new { id = item.SportItemId })
+                </td>
+            </tr>
+        }
+    }
+
+    if (Model.Electronics != null)
+    {
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Electronics)
+            </th>
+
+        </tr>
+
+        foreach (var item in Model.Electronics)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ElectronicPartName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ElectronicPartDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ElectronicPartPrice)
+                </td>
+                <td>
+                    @Html.ActionLink("Remove From Cart", "RemoveElectronicsFromCart", new { id = item.ElectronicPartId })
+                </td>
+            </tr>
+        }
+    }
+}
+</table>

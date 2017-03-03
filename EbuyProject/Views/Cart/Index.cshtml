@@ -1,0 +1,119 @@
+﻿@using EbuyProject.ViewModels;
+@model dynamic
+@{
+    ViewBag.Title = "Home Page";
+    var test = new EbuyProject.ViewModels.CartViewModel();
+    test.Cars = new List<CarViewModel>();
+
+}
+
+<div style="border-left:1px black solid; position:absolute; left:1%;"/>
+<h2>Add items to cart</h2>
+<input type="button" value="Cars" style="width:100px; height:50px;" onclick="location.href='@Url.Action("CarsCategory", "Cart")'" />
+<input type="button" value="Books" style="width:100px; height:50px;" onclick="location.href='@Url.Action("BooksCategory", "Cart")'" />
+<input type="button" value="Electronics" style="width:100px; height:50px;" onclick="location.href='@Url.Action("ElectronicsCategory", "Cart")'" />
+<input type="button" value="Sport" style="width:100px; height:50px;" onclick="location.href='@Url.Action("SportCategory", "Cart")'" />
+<input type="button" value="Music" style="width:100px; height:50px;" onclick="location.href='@Url.Action("MusicCategory", "Cart")'" />
+<input type="button" value="My Cart" style="width:100px; height:50px;" onclick="location.href='@Url.Action("GetCart", "Cart")'" />
+<h3>Cars</h3>
+<table class="table" >
+
+    <tr>
+        <th>Car Model</th>
+        <th>Car Maker</th>
+        <th>Car Price</th>
+    </tr>
+    @foreach (CarViewModel car in Model.Cars)
+    {
+        <tr>
+            <td>@car.CarModel</td>
+            <td>@car.CarMaker</td>
+            <td>@car.CarPrice</td>
+            <td> <input type="button" value="Add To Cart" onclick= "location.href='@Url.Action("AddCarToCart", "Cart", new { id = car.CarId })'" /></td>
+         </tr>         
+     }
+</table>
+
+<hr />
+<h3>Music</h3>
+<table class="table" >
+    <tr>
+        <th>Music Item Name</th>
+        <th>Music Item Description</th>
+        <th>Music Item Price</th>
+    </tr>
+    @foreach (MusicViewModel item in Model.Music)
+    {
+        <tr>
+            <td>@item.MusicPartName</td>
+            <td>@item.MusicPartDescription</td>
+            <td>@item.MusicPartPrice</td>
+            <td> <input type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddMusicToCart", "Cart", new { id = item.MusicPartId })'" /></td>
+        </tr>
+    }
+</table>
+<hr />
+<h3>Books</h3>
+<table class="table" >
+    <tr>
+        <th>Book Name</th>
+        <th>Book Author Name</th>
+        <th>Book Author Surname</th>
+        <th>Book Description</th>
+        <th>Book Price</th>
+    </tr>
+    @foreach (BookViewModel item in Model.Books)
+    {
+        <tr>
+            <td>@item.BookName</td>
+            <td>@item.BookAuthorName </td>
+            <td>@item.BookAuthorSurname </td>
+            <td>@item.BookDescription </td>
+            <td>@item.BookPrice </td>
+            <td> <input type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddBooksToCart", "Cart", new { id = item.BookId })'" /></td>
+        </tr>
+    }
+</table>
+<hr />
+<h3>Sport</h3>
+<table class="table" >
+
+    <tr>
+        <th>Sport Item Name</th>
+        <th>Sport Item Description</th>
+        <th>Sport Item Price</th>
+    </tr>
+    @foreach (SportViewModel item in Model.Sport)
+    {
+        <tr>
+            <td>@item.SportItemName</td>
+            <td>@item.SportItemDescription</td>
+            <td>@item.SportItemPrice</td>
+            <td> <input type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddSportToCart", "Cart", new { id = item.SportItemId })'" /></td>
+        </tr>
+    }
+
+
+</table>
+<hr />
+<h3>Electronics</h3>
+<table class="table" >
+
+    <tr>
+        <th>Electronic part Name</th>
+        <th>Electronic part Description</th>
+        <th>Electronic part Price</th>
+    </tr>
+    @foreach (ElectronicsViewModel item in Model.Electronic)
+    {
+        <tr>
+            <td>@item.ElectronicPartName</td>
+            <td>@item.ElectronicPartDescription</td>
+            <td>@item.ElectronicPartPrice</td>
+            <td> <input type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddElectronicsToCart", "Cart", new { id = item.ElectronicPartId })'" /></td>
+        </tr>
+    }
+
+
+</table>
+<input type="button" value="Checkout" style="width:150px; height:40px; background-color:aquamarine" onclick="location.href='@Url.Action("Checkout", "Cart")'" />

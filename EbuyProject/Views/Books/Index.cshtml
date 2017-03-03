@@ -1,0 +1,79 @@
+﻿@model IEnumerable<EbuyProject.ViewModels.BookViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Books", FormMethod.Get))
+    {
+        @Html.TextBox("search") <input type="submit" value="Search Books by Name" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Book Name", "Index", new { sortBy = ViewBag.sortNameParameter, search = Request.QueryString["search"] })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookAuthorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookAuthorSurname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookIsbn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookGenre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookAuthorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookAuthorSurname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookIsbn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookGenre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.BookId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.BookId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.BookId })
+        </td>
+    </tr>
+}
+
+</table>
+<input type="button" value="1" onclick="location.href='@Url.Action("Index", "Books", new { page = 1 } )'" />
+<input type="button" value="2" onclick="location.href='@Url.Action("Index", "Books", new { page = 2 } )'" />
+<input type="button" value="3" onclick="location.href='@Url.Action("Index", "Books", new { page = 3 } )'" />
+<!-- izmisliti bolji nacin numeriranja  -->
