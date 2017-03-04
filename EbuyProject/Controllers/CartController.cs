@@ -14,6 +14,12 @@ namespace EbuyProject.Controllers
         public CartController(ICartService service)
         {
             this.Service = service;
+            cart = new CartViewModel();
+            cart.Books = new List<BookViewModel>();
+            cart.Cars = new List<CarViewModel>();
+            cart.Musics = new List<MusicViewModel>();
+            cart.Sports = new List<SportViewModel>();
+            cart.Electronics = new List<ElectronicsViewModel>();
         }
         private readonly ICartService Service;
         CartViewModel cart;
@@ -32,8 +38,6 @@ namespace EbuyProject.Controllers
         public async Task<ActionResult> AddCarToCart(int? id)
         {
             var returnedValue = (List<CarViewModel>)Session["carsSession"];
-            cart = new CartViewModel();
-            cart.Cars = new List<CarViewModel>();
             if (returnedValue != null)
             {
                 cart.Cars = (List<CarViewModel>)Session["carsSession"];
@@ -44,8 +48,6 @@ namespace EbuyProject.Controllers
         }
         public ActionResult RemoveCarFromCart(int id)
         {
-            cart = new CartViewModel();
-            cart.Cars = new List<CarViewModel>();
             cart.Cars = (List<CarViewModel>)Session["carsSession"];
             Session["carsSession"] = cart.Cars.Where(c => c.CarId != id).ToList();
             return View("RemovedFromCart");
@@ -55,8 +57,6 @@ namespace EbuyProject.Controllers
         public async Task<ActionResult> AddBooksToCart(int? id)
         {
             var returnedValue = (List<BookViewModel>)Session["booksSession"];
-            cart = new CartViewModel();
-            cart.Books = new List<BookViewModel>();
             if (returnedValue != null)
             {
                 cart.Books = (List<BookViewModel>)Session["booksSession"];
@@ -67,8 +67,6 @@ namespace EbuyProject.Controllers
         }
         public ActionResult RemoveBooksFromCart(int id)
         {
-            cart = new CartViewModel();
-            cart.Books = new List<BookViewModel>();
             cart.Books = (List<BookViewModel>)Session["booksSession"];
             Session["booksSession"] = cart.Books.Where(c => c.BookId != id).ToList();
             return View("RemovedFromCart");
@@ -78,8 +76,6 @@ namespace EbuyProject.Controllers
         public async Task<ActionResult> AddMusicToCart(int? id)
         {
             var returnedValue = (List<MusicViewModel>)Session["musicSession"];
-            cart = new CartViewModel();
-            cart.Musics = new List<MusicViewModel>();
             if (returnedValue != null)
             {
                 cart.Musics = (List<MusicViewModel>)Session["musicSession"];
@@ -90,8 +86,6 @@ namespace EbuyProject.Controllers
         }
         public ActionResult RemoveMusicFromCart(int id)
         {
-            cart = new CartViewModel();
-            cart.Musics = new List<MusicViewModel>();
             cart.Musics = (List<MusicViewModel>)Session["musicSession"];
             Session["musicSession"] = cart.Musics.Where(c => c.MusicPartId != id).ToList();
             return View("RemovedFromCart");
@@ -101,8 +95,6 @@ namespace EbuyProject.Controllers
         public async Task<ActionResult> AddSportToCart(int? id)
         {
             var returnedValue = (List<SportViewModel>)Session["sportSession"];
-            cart = new CartViewModel();
-            cart.Sports = new List<SportViewModel>();
             if (returnedValue != null)
             {
                 cart.Sports = (List<SportViewModel>)Session["sportSession"];
@@ -113,8 +105,6 @@ namespace EbuyProject.Controllers
         }
         public ActionResult RemoveSportFromCart(int id)
         {
-            cart = new CartViewModel();
-            cart.Sports = new List<SportViewModel>();
             cart.Sports = (List<SportViewModel>)Session["sportSession"];
             Session["sportSession"] = cart.Sports.Where(c => c.SportItemId != id).ToList();
             return View("RemovedFromCart");
@@ -124,8 +114,6 @@ namespace EbuyProject.Controllers
         public async Task<ActionResult> AddElectronicsToCart(int? id)
         {
             var returnedValue = (List<ElectronicsViewModel>)Session["electronicSession"];
-            cart = new CartViewModel();
-            cart.Electronics = new List<ElectronicsViewModel>();
             if (returnedValue != null)
             {
                 cart.Electronics = (List<ElectronicsViewModel>)Session["ElectronicSession"];
@@ -136,8 +124,6 @@ namespace EbuyProject.Controllers
         }
         public ActionResult RemoveElectronicsFromCart(int id)
         {
-            cart = new CartViewModel();
-            cart.Electronics = new List<ElectronicsViewModel>();
             cart.Electronics = (List<ElectronicsViewModel>)Session["ElectronicSession"];
             Session["ElectronicSession"] = cart.Electronics.Where(c => c.ElectronicPartId != id).ToList();
             return View("RemovedFromCart");
@@ -171,7 +157,6 @@ namespace EbuyProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> CheckoutConfirmed([Bind(Include="UserName,UserSurname,UserAdress,UserEmail")] CartViewModel viewCart)
         {
-            cart = new CartViewModel();
             cart.Cars = (List<CarViewModel>)Session["carsSession"];
             cart.Books = (List<BookViewModel>)Session["booksSession"];
             cart.Musics = (List<MusicViewModel>)Session["musicSession"];
