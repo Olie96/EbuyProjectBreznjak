@@ -63,6 +63,7 @@
     <Compile Include="IElectronicsService.cs" />
     <Compile Include="IMusicService.cs" />
     <Compile Include="ISportService.cs" />
+    <Compile Include="IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

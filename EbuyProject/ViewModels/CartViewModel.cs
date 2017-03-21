@@ -10,17 +10,15 @@ namespace EbuyProject.ViewModels
 {
     public class CartViewModel
     {
-        public int CartId { get; set; }
-        public string UserName { get; set; } // UserName (length: 50)
-        public string UserSurname { get; set; } // UserSurname (length: 50)
-        public string UserAdress { get; set; } // UserAdress (length: 50)
-        public string UserEmail { get; set; } // UserEmail (length: 50)
+        public int CartId { get; set; } // CartId (Primary key)
+        public int? UserId { get; set; } // UserId
 
-        public ICollection<BookViewModel> Books { get; set; }
-        public ICollection<CarViewModel> Cars { get; set; }
-        public ICollection<ElectronicsViewModel> Electronics { get; set; }
-        public ICollection<MusicViewModel> Musics { get; set; }
-        public ICollection<SportViewModel> Sports { get; set; }
+        //Reverse navigation
+        public System.Collections.Generic.ICollection<BookViewModel> Books { get; set; } // Book.FK_Book_Cart
+        public System.Collections.Generic.ICollection<CarViewModel> Cars { get; set; } // Car.FK_Car_Cart
+        public System.Collections.Generic.ICollection<ElectronicsViewModel> Electronics { get; set; } // Electronic.FK_Electronic_Cart
+        public System.Collections.Generic.ICollection<MusicViewModel> Musics { get; set; } // Music.FK_Music_Cart
+        public System.Collections.Generic.ICollection<SportViewModel> Sports { get; set; } // Sport.FK_Sport_Cart
 
     }
 }

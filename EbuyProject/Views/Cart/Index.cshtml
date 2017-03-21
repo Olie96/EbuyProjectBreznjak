@@ -1,5 +1,4 @@
 ﻿@using EbuyProject.ViewModels;
-@model dynamic
 @{
     ViewBag.Title = "Home Page";
     var test = new EbuyProject.ViewModels.CartViewModel();
@@ -8,7 +7,7 @@
 }
 
 <div style="border-left:1px black solid; position:absolute; left:1%;"/>
-<h2>Add items to cart</h2>
+<h2>@Model.User.FirstName add items to your cart</h2>
 <input type="button" value="Cars" style="width:100px; height:50px;" onclick="location.href='@Url.Action("CarsCategory", "Cart")'" />
 <input type="button" value="Books" style="width:100px; height:50px;" onclick="location.href='@Url.Action("BooksCategory", "Cart")'" />
 <input type="button" value="Electronics" style="width:100px; height:50px;" onclick="location.href='@Url.Action("ElectronicsCategory", "Cart")'" />
@@ -23,7 +22,7 @@
         <th>Car Maker</th>
         <th>Car Price</th>
     </tr>
-    @foreach (CarViewModel car in Model.Cars)
+    @foreach (CarViewModel car in ViewBag.Cars)
     {
         <tr>
             <td>@car.CarModel</td>
@@ -42,7 +41,7 @@
         <th>Music Item Description</th>
         <th>Music Item Price</th>
     </tr>
-    @foreach (MusicViewModel item in Model.Music)
+    @foreach (MusicViewModel item in ViewBag.Music)
     {
         <tr>
             <td>@item.MusicPartName</td>
@@ -62,7 +61,7 @@
         <th>Book Description</th>
         <th>Book Price</th>
     </tr>
-    @foreach (BookViewModel item in Model.Books)
+    @foreach (BookViewModel item in ViewBag.Books)
     {
         <tr>
             <td>@item.BookName</td>
@@ -83,7 +82,7 @@
         <th>Sport Item Description</th>
         <th>Sport Item Price</th>
     </tr>
-    @foreach (SportViewModel item in Model.Sport)
+    @foreach (SportViewModel item in ViewBag.Sport)
     {
         <tr>
             <td>@item.SportItemName</td>
@@ -104,7 +103,7 @@
         <th>Electronic part Description</th>
         <th>Electronic part Price</th>
     </tr>
-    @foreach (ElectronicsViewModel item in Model.Electronic)
+    @foreach (ElectronicsViewModel item in ViewBag.Electronic)
     {
         <tr>
             <td>@item.ElectronicPartName</td>

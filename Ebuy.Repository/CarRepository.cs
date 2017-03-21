@@ -36,7 +36,7 @@ namespace Ebuy.Repository
         public async Task<List<ICars>> GetAllAsync(string search, int page, string sortBy)
         {
             var modelContext = DbContext.Cars.AsQueryable();
-            modelContext = modelContext.Where(x => x.CarMaker.Contains(search) || search == null);
+            modelContext = modelContext.Where(x => x.CarMaker.Contains(search) && x.CartId == null || search == null && x.CartId == null);
             switch (sortBy)
             {
                 case SortingOperations.Descending:

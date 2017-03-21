@@ -10,28 +10,33 @@ using System.Linq;
 namespace EbuyProject.Controllers
 {
     public class CartController : Controller
-    {        
-        public CartController(ICartService service)
+    {
+        CartViewModel cart;
+        UserViewModel user;
+        public CartController(ICartService service, IUserService userService)
         {
             this.Service = service;
+            this.userService = userService;
             cart = new CartViewModel();
             cart.Books = new List<BookViewModel>();
             cart.Cars = new List<CarViewModel>();
             cart.Musics = new List<MusicViewModel>();
             cart.Sports = new List<SportViewModel>();
             cart.Electronics = new List<ElectronicsViewModel>();
+            user = new UserViewModel();
+
         }
         private readonly ICartService Service;
-        CartViewModel cart;
+        private readonly IUserService userService;
         public async Task<ActionResult> Index()
         {  
-            dynamic models = new ExpandoObject();
-            models.Cars = AutoMapper.Mapper.Map<List<CarViewModel>>(await Service.GetAllCarsAsync());
-            models.Books = AutoMapper.Mapper.Map<List<BookViewModel>>(await Service.GetAllBooksAsync());
-            models.Music = AutoMapper.Mapper.Map<List<MusicViewModel>>(await Service.GetAllMusicAsync());
-            models.Sport = AutoMapper.Mapper.Map<List<SportViewModel>>(await Service.GetAllSportAsync());
-            models.Electronic = AutoMapper.Mapper.Map<List<ElectronicsViewModel>>(await Service.GetAllElectronicAsync());
-            return View(models);
+            ViewBag.Cars = AutoMapper.Mapper.Map<List<CarViewModel>>(await Service.GetAllCarsAsync());
+            ViewBag.Books = AutoMapper.Mapper.Map<List<BookViewModel>>(await Service.GetAllBooksAsync());
+            ViewBag.Music = AutoMapper.Mapper.Map<List<MusicViewModel>>(await Service.GetAllMusicAsync());
+            ViewBag.Sport = AutoMapper.Mapper.Map<List<SportViewModel>>(await Service.GetAllSportAsync());
+            ViewBag.Electronic = AutoMapper.Mapper.Map<List<ElectronicsViewModel>>(await Service.GetAllElectronicAsync());
+            ViewBag.User = (UserViewModel)Session["userSession"];
+            return View(ViewBag);
         }
 
         //Car
@@ -151,21 +156,20 @@ namespace EbuyProject.Controllers
         }
         public ActionResult Checkout()
         {
-            return View();
+            user = (UserViewModel)Session["userSession"];
+            return View(user);
         }
-        [HttpPost, ActionName("Checkout")]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> CheckoutConfirmed([Bind(Include="UserName,UserSurname,UserAdress,UserEmail")] CartViewModel viewCart)
+        //[HttpPost, ActionName("Checkout")]
+        //[ValidateAntiForgeryToken]
+        public async Task<ActionResult> CheckoutConfirmed()
         {
             cart.Cars = (List<CarViewModel>)Session["carsSession"];
             cart.Books = (List<BookViewModel>)Session["booksSession"];
             cart.Musics = (List<MusicViewModel>)Session["musicSession"];
             cart.Sports = (List<SportViewModel>)Session["sportSession"];
             cart.Electronics = (List<ElectronicsViewModel>)Session["electronicSession"];
-            cart.UserName = viewCart.UserName;
-            cart.UserSurname = viewCart.UserSurname;
-            cart.UserAdress = viewCart.UserAdress;
-            cart.UserEmail = viewCart.UserEmail;
+            user = (UserViewModel)Session["userSession"];
+            cart.UserId = user.UserId;
             await Service.AddToCartAsync(AutoMapper.Mapper.Map<ICart>(cart));
             return RedirectToAction("CheckoutConfirmation");
         }

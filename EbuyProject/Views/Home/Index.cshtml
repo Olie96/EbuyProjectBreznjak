@@ -14,9 +14,13 @@
 
 @using (Html.BeginForm("Login", "Home"))
 {
-    <input type="text" name="Name" id="Name" />
-
-    <input type="submit" value="Login" />
+    <input type="text" name="name" id="name" />
+    <input type="text" name="surname" id="surname" />
+    <input type="submit" value="Log in" />
 }
 
-<h6>Type "Admin" for Administrator view or "User" for User view</h6>
+<p>
+    @Html.ActionLink("Create Account", "CreateAccount")
+</p>
+
+<h6>Enter "Admin" as Email and Password to log in as Administrator</h6>

@@ -28,3 +28,13 @@ H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.csprojResolveAssemblyReference.cache
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.dll
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.pdb
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\obj\Debug\Ebuy.DAL.pdb
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\Ebuy.DAL.dll.config
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\Ebuy.DAL.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\Ebuy.DAL.pdb
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.DAL\bin\Debug\EntityFramework.SqlServer.xml

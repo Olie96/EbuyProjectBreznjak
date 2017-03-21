@@ -19,6 +19,7 @@ namespace Ebuy.Service
             Kernel.Bind<ISportRepository>().To<SportRepository>();
             Kernel.Bind<IBookRepository>().To<BookRepository>();
             Kernel.Bind<IElectronicsRepository>().To<ElectronicsRepository>();
+            Kernel.Bind<IUserRepository>().To<UserRepository>();
 
             Kernel.Bind<IRepository<Book>>().To<GenericRepository<Book>>();
             Kernel.Bind<IRepository<Sport>>().To<GenericRepository<Sport>>();
@@ -26,6 +27,7 @@ namespace Ebuy.Service
             Kernel.Bind<IRepository<Music>>().To<GenericRepository<Music>>();
             Kernel.Bind<IRepository<Car>>().To<GenericRepository<Car>>();
             Kernel.Bind<IRepository<Cart>>().To<GenericRepository<Cart>>();
+            Kernel.Bind<IRepository<User>>().To<GenericRepository<User>>();
         }
     }
 }

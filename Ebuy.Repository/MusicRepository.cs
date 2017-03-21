@@ -35,7 +35,7 @@ namespace Ebuy.Repository
         public async Task<List<IMusic>> GetAllAsync(string search, int page, string sortBy)
         {
             var modelContext = DbContext.Musics.AsQueryable();
-            modelContext = modelContext.Where(x => x.MusicPartName.Contains(search) || search == null);
+            modelContext = modelContext.Where(x => x.MusicPartName.Contains(search) && x.CartId == null || search == null && x.CartId == null);
             switch (sortBy)
             {
                 case SortingOperations.Descending:

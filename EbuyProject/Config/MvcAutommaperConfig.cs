@@ -26,6 +26,7 @@ namespace EbuyProject
                 config.CreateMap<MusicViewModel, IMusic>().ReverseMap();
                 config.CreateMap<ElectronicsViewModel, IElectronics>().ReverseMap();
                 config.CreateMap<CartViewModel, ICart>().ReverseMap();
+                config.CreateMap<UserViewModel, IUser>().ReverseMap();
             });
 
         }

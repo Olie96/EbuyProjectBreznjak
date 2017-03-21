@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EbuyProject.Config;
+using Ebuy.Service.Common;
 
 namespace EbuyProject.Controllers
 {
@@ -28,17 +29,14 @@ namespace EbuyProject.Controllers
             return View();
         }
 
-        public ActionResult Login(string Name)
-        {
-            if (Name.Equals(KeyWords.AdminKeyWord))
-            {
-                return RedirectToAction("Index", "Admin");
-            }
-            else if (Name.Equals(KeyWords.UserKeyWord))
-            {
-                return RedirectToAction("Index", "Cart");
-            }
-            return RedirectToAction("Index");
-        }
+        //public ActionResult Login(string name, string surname)
+        //{
+        //    return RedirectToAction("Index");
+        //}
+
+        //public ActionResult CreateAccount()
+        //{
+        //    return View();
+        //}
     }
 }

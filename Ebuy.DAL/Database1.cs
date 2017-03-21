@@ -9,7 +9,7 @@
 // The following connection settings were used to generate this file:
 //     Configuration file:     "EbuyProject\Web.config"
 //     Connection String Name: "EbuyDatabaseTestModels"
-//     Connection String:      "Data Source=DESKTOP-9BO3SIS\SQLEXPRESS;Initial Catalog=EbuyTestDatabase;Integrated Security=True"
+//     Connection String:      "Data Source=DESKTOP-RTQVUMU\SQLEXPRESS;Initial Catalog=EbuyTestDatabase;Integrated Security=True"
 // ------------------------------------------------------------------------------------------------
 // Database Edition       : Express Edition (64-bit)
 // Database Engine Edition: Express
@@ -41,6 +41,7 @@ namespace Ebuy.DAL
         System.Data.Entity.DbSet<Electronic> Electronics { get; set; } // Electronic
         System.Data.Entity.DbSet<Music> Musics { get; set; } // Music
         System.Data.Entity.DbSet<Sport> Sports { get; set; } // Sport
+        System.Data.Entity.DbSet<User> Users { get; set; } // User
 
         int SaveChanges();
         System.Threading.Tasks.Task<int> SaveChangesAsync();
@@ -69,6 +70,7 @@ namespace Ebuy.DAL
         public System.Data.Entity.DbSet<Electronic> Electronics { get; set; } // Electronic
         public System.Data.Entity.DbSet<Music> Musics { get; set; } // Music
         public System.Data.Entity.DbSet<Sport> Sports { get; set; } // Sport
+        public System.Data.Entity.DbSet<User> Users { get; set; } // User
 
         static MyDbContext()
         {
@@ -124,6 +126,7 @@ namespace Ebuy.DAL
             modelBuilder.Configurations.Add(new ElectronicConfiguration());
             modelBuilder.Configurations.Add(new MusicConfiguration());
             modelBuilder.Configurations.Add(new SportConfiguration());
+            modelBuilder.Configurations.Add(new UserConfiguration());
         }
 
         public static System.Data.Entity.DbModelBuilder CreateModel(System.Data.Entity.DbModelBuilder modelBuilder, string schema)
@@ -134,6 +137,7 @@ namespace Ebuy.DAL
             modelBuilder.Configurations.Add(new ElectronicConfiguration(schema));
             modelBuilder.Configurations.Add(new MusicConfiguration(schema));
             modelBuilder.Configurations.Add(new SportConfiguration(schema));
+            modelBuilder.Configurations.Add(new UserConfiguration(schema));
             return modelBuilder;
         }
     }
@@ -150,6 +154,7 @@ namespace Ebuy.DAL
         public System.Data.Entity.DbSet<Electronic> Electronics { get; set; }
         public System.Data.Entity.DbSet<Music> Musics { get; set; }
         public System.Data.Entity.DbSet<Sport> Sports { get; set; }
+        public System.Data.Entity.DbSet<User> Users { get; set; }
 
         public FakeMyDbContext()
         {
@@ -159,6 +164,7 @@ namespace Ebuy.DAL
             Electronics = new FakeDbSet<Electronic>("ElectronicPartId");
             Musics = new FakeDbSet<Music>("MusicPartId");
             Sports = new FakeDbSet<Sport>("SportItemId");
+            Users = new FakeDbSet<User>("UserId");
         }
 
         public int SaveChangesCount { get; private set; }
@@ -518,10 +524,7 @@ namespace Ebuy.DAL
     public class Cart
     {
         public int CartId { get; set; } // CartId (Primary key)
-        public string UserName { get; set; } // UserName (length: 50)
-        public string UserSurname { get; set; } // UserSurname (length: 50)
-        public string UserAdress { get; set; } // UserAdress (length: 50)
-        public string UserEmail { get; set; } // UserEmail (length: 50)
+        public int? UserId { get; set; } // UserId
 
         // Reverse navigation
         public virtual System.Collections.Generic.ICollection<Book> Books { get; set; } // Book.FK_Book_Cart
@@ -580,6 +583,18 @@ namespace Ebuy.DAL
 
         // Foreign keys
         public virtual Cart Cart { get; set; } // FK_Sport_Cart
+    }
+
+    // User
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
+    public class User
+    {
+        public int UserId { get; set; } // UserId (Primary key)
+        public string FirstName { get; set; } // FirstName (length: 50)
+        public string LastName { get; set; } // LastName (length: 50)
+        public string Adress { get; set; } // Adress (length: 50)
+        public string Email { get; set; } // Email (length: 50)
+        public string Password { get; set; } // Password (length: 50)
     }
 
     #endregion
@@ -658,10 +673,7 @@ namespace Ebuy.DAL
             HasKey(x => x.CartId);
 
             Property(x => x.CartId).HasColumnName(@"CartId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
-            Property(x => x.UserName).HasColumnName(@"UserName").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
-            Property(x => x.UserSurname).HasColumnName(@"UserSurname").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
-            Property(x => x.UserAdress).HasColumnName(@"UserAdress").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
-            Property(x => x.UserEmail).HasColumnName(@"UserEmail").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
+            Property(x => x.UserId).HasColumnName(@"UserId").HasColumnType("int").IsOptional();
         }
     }
 
@@ -737,6 +749,29 @@ namespace Ebuy.DAL
 
             // Foreign keys
             HasOptional(a => a.Cart).WithMany(b => b.Sports).HasForeignKey(c => c.CartId).WillCascadeOnDelete(false); // FK_Sport_Cart
+        }
+    }
+
+    // User
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
+    public class UserConfiguration : System.Data.Entity.ModelConfiguration.EntityTypeConfiguration<User>
+    {
+        public UserConfiguration()
+            : this("dbo")
+        {
+        }
+
+        public UserConfiguration(string schema)
+        {
+            ToTable("User", schema);
+            HasKey(x => x.UserId);
+
+            Property(x => x.UserId).HasColumnName(@"UserId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+            Property(x => x.FirstName).HasColumnName(@"FirstName").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
+            Property(x => x.LastName).HasColumnName(@"LastName").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
+            Property(x => x.Adress).HasColumnName(@"Adress").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
+            Property(x => x.Email).HasColumnName(@"Email").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
+            Property(x => x.Password).HasColumnName(@"Password").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);
         }
     }
 

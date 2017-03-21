@@ -12,7 +12,7 @@ namespace Ebuy.Repository.Common
     {
         //   Task<IEnumerable<TEntity>> GetAll();
         Task<TEntity> GetAsync(int? id);
-        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
+        IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         Task<int> AddAsync(TEntity entity);
         Task<int> RemoveAsync(TEntity entity);
         Task<int> UpdateAsync(TEntity entity);

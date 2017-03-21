@@ -63,6 +63,7 @@
     <Compile Include="ICars.cs" />
     <Compile Include="IMusic.cs" />
     <Compile Include="ISport.cs" />
+    <Compile Include="IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

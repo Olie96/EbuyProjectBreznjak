@@ -32,6 +32,9 @@ namespace Ebuy.Repository
             CreateMap<Ebuy.Model.Sport, Ebuy.DAL.Sport>().ReverseMap();
             CreateMap<Ebuy.Model.Sport, Ebuy.Model.Common.ISport>().ReverseMap();
             CreateMap<Ebuy.DAL.Sport, Ebuy.Model.Common.ISport>().ReverseMap();
+            CreateMap<Ebuy.Model.User, Ebuy.DAL.User>().ReverseMap();
+            CreateMap<Ebuy.Model.User, Ebuy.Model.Common.IUser>().ReverseMap();
+            CreateMap<Ebuy.DAL.User, Ebuy.Model.Common.IUser>().ReverseMap();
         }
     }
 }

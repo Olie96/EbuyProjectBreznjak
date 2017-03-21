@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>EBuy</h1>
+    <h3>
+        EBuy Inc. is an Croatian multinational corporation and e-commerce company,
+        providing consumer-to-consumer and business-to-consumer sales services via the Internet.
+        It is headquartered in Osijek, Croatia. EBuy was founded by Oliver Brežnjak in 2017,
+        and became a notable success story of the dot-com bubble. Today it is a multibillion-dollar
+        business with operations localized in over 30 countries.
+    </h3>
+    <h2>Please log in to continue</h2>
+</div>
+@using (Html.BeginForm("LogIn", "User"))
+{
+    <input value="enter email" type="text" name="email" id="email" />
+    <input value="enter password"  type="text" name="password" id="password" />
+    <input type="submit" value="Log in" />
+}
+<p>
+    @Html.ActionLink("Create Account", "CreateAccount")
+</p>
+<h6>Enter "Admin" as Email and Password to log in as Administrator</h6>

@@ -38,3 +38,17 @@ H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Deb
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.csprojResolveAssemblyReference.cache
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.dll
 H:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.pdb
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.dll.config
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ebuy.Common.pdb
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\AutoMapper.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ninject.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\AutoMapper.xml
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\bin\Debug\Ninject.xml
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.dll
+D:\Documents\Visual Studio 2015\Projects\EbuyProjectBreznjak\Ebuy.Common\obj\Debug\Ebuy.Common.pdb

@@ -25,9 +25,10 @@ namespace Ebuy.Repository
             return await Context.SaveChangesAsync();
         }
 
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        public IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
-            return Context.Set<TEntity>().Where(predicate);
+            IQueryable<TEntity> query = Context.Set<TEntity>().Where(predicate);
+            return query;
         }
 
         public async Task<TEntity> GetAsync(int? id)

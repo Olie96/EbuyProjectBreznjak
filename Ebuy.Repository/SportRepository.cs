@@ -35,7 +35,7 @@ namespace Ebuy.Repository
         public async Task<List<ISport>> GetAllAsync(string search, int page, string sortBy)
         {
             var modelContext = DbContext.Sports.AsQueryable();
-            modelContext = modelContext.Where(x => x.SportItemName.Contains(search) || search == null);
+            modelContext = modelContext.Where(x => x.SportItemName.Contains(search) && x.CartId == null|| search == null && x.CartId == null);
             switch (sortBy)
             {
                 case SortingOperations.Descending:

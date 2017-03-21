@@ -121,6 +121,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Ebuy.Service.Common\Ebuy.Service.Common.csproj">
+      <Project>{924CB9F9-E6C9-4C38-9D16-F9729BFA9DA8}</Project>
+      <Name>Ebuy.Service.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EbuyProject\EbuyProject.Mvc.csproj">
       <Project>{27BC31CF-89E7-403B-99ED-DD56185DB8BA}</Project>
       <Name>EbuyProject.Mvc</Name>

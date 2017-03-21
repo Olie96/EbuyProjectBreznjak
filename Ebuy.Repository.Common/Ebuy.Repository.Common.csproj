@@ -64,6 +64,7 @@
     <Compile Include="IMusicRepository.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="ISportRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

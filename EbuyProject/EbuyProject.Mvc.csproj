@@ -228,6 +228,7 @@
     <Compile Include="Controllers\MusicController.cs" />
     <Compile Include="Controllers\SportController.cs" />
     <Compile Include="Config\DIModule.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -244,6 +245,7 @@
     <Compile Include="ViewModels\ElectronicsViewModel.cs" />
     <Compile Include="ViewModels\MusicViewModel.cs" />
     <Compile Include="ViewModels\SportViewModel.cs" />
+    <Compile Include="ViewModels\UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -341,6 +343,9 @@
     <Content Include="Views\Cart\ElectronicsCategory.cshtml" />
     <Content Include="Views\Cart\SportCategory.cshtml" />
     <Content Include="Views\Cart\MusicCategory.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\CreateAccount.cshtml" />
+    <Content Include="Views\User\RegisteredUsers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

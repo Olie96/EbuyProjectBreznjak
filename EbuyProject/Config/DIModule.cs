@@ -19,6 +19,7 @@ namespace EbuyProject
             Kernel.Bind<IMusicService>().To<MusicService>();
             Kernel.Bind<ICartService>().To<CartService>();
             Kernel.Bind<IElectronicsService>().To<ElectronicsService>();
+            Kernel.Bind<IUserService>().To<UserService>();
         }
     }
 }

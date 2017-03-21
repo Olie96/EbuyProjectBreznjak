@@ -32,7 +32,7 @@ namespace Ebuy.Repository
         public async Task<List<IBooks>> GetAllAsync(string search, int page, string sortBy)
         {
             var modelContext = DbContext.Books.AsQueryable();
-            modelContext = modelContext.Where(x => x.BookName.Contains(search) || search == null);
+            modelContext = modelContext.Where(x => x.BookName.Contains(search) && x.CartId == null || search == null && x.CartId == null);
             switch (sortBy)
             {
                 case SortingOperations.Descending:

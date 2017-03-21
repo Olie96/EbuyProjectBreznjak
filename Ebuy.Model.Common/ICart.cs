@@ -9,16 +9,14 @@ namespace Ebuy.Model.Common
 {
     public interface ICart
     {
-        int CartId { get; set; }
-        string UserName { get; set; } // UserName (length: 50)
-        string UserSurname { get; set; } // UserSurname (length: 50)
-        string UserAdress { get; set; } // UserAdress (length: 50)
-        string UserEmail { get; set; } // UserEmail (length: 50)
+         int CartId { get; set; } // CartId (Primary key)
+         int? UserId { get; set; } // UserId
 
-        ICollection<IBooks> Books { get; set; }
-        ICollection<ICars> Cars { get; set; }
-        ICollection<IElectronics> Electronics { get; set; }
-        ICollection<IMusic> Musics { get; set; }
-        ICollection<ISport> Sports { get; set; }
+        //Reverse navigation
+         System.Collections.Generic.ICollection<IBooks> Books { get; set; } // Book.FK_Book_Cart
+         System.Collections.Generic.ICollection<ICars> Cars { get; set; } // Car.FK_Car_Cart
+         System.Collections.Generic.ICollection<IElectronics> Electronics { get; set; } // Electronic.FK_Electronic_Cart
+         System.Collections.Generic.ICollection<IMusic> Musics { get; set; } // Music.FK_Music_Cart
+         System.Collections.Generic.ICollection<ISport> Sports { get; set; } // Sport.FK_Sport_Cart
     }
 }
