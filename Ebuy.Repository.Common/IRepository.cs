@@ -14,7 +14,7 @@ namespace Ebuy.Repository.Common
         Task<TEntity> GetAsync(int? id);
         IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         Task<int> AddAsync(TEntity entity);
-        Task<int> RemoveAsync(TEntity entity);
+        //Task<int> RemoveAsync(TEntity entity);
         Task<int> UpdateAsync(TEntity entity);
     }
 }

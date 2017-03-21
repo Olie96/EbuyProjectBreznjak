@@ -60,11 +60,14 @@ namespace Ebuy.Repository
 
         public async Task<int> RemoveAsync(IBooks entity)
         {
-            return await _repository.RemoveAsync(AutoMapper.Mapper.Map<Book>(entity));
+            DbContext.Books.Remove(await DbContext.Books.FindAsync(entity.BookId));
+            return await DbContext.SaveChangesAsync();
         }
 
         public async Task<int> UpdateAsync(IBooks entity)
         {
+            DbContext.Books.Remove(await DbContext.Books.FindAsync(entity.BookId));
+            await DbContext.SaveChangesAsync();
             return await _repository.UpdateAsync(AutoMapper.Mapper.Map<Book>(entity));
         }
     }

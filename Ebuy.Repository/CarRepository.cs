@@ -57,11 +57,14 @@ namespace Ebuy.Repository
 
         public async Task<int> RemoveAsync(ICars entity)
         {
-            return await _repository.RemoveAsync(AutoMapper.Mapper.Map<Car>(entity));
+            DbContext.Cars.Remove(await DbContext.Cars.FindAsync(entity.CarId));
+            return await DbContext.SaveChangesAsync();
         }
 
         public async Task<int> UpdateAsync(ICars entity)
         {
+            DbContext.Cars.Remove(await DbContext.Cars.FindAsync(entity.CarId));
+            await DbContext.SaveChangesAsync();
             return await _repository.UpdateAsync(AutoMapper.Mapper.Map<Car>(entity));
         }
     }

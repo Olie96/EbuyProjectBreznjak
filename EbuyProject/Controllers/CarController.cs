@@ -79,7 +79,7 @@ namespace EbuyProject.Controllers
         }
 
         [HttpPost, ActionName("Edit")]
-        public async Task<ActionResult> Edit([Bind(Include = "Model,CarMaker,CarKilometers,CarDescription,CarPrice,CarYearOfProduction")] CarViewModel car)
+        public async Task<ActionResult> Edit([Bind(Include = "CarId,CarModel,CarMaker,CarKilometers,CarDescription,CarPrice,CarYearOfProduction")] CarViewModel car)
         {
             if (ModelState.IsValid)
             {

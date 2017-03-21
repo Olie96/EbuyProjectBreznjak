@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ebuy.Model.Common;
+using System.ComponentModel.DataAnnotations;
 
 namespace EbuyProject.ViewModels
 {
     public class BookViewModel
     {
+        [Key]
         public int BookId { get; set; } // BookId (Primary key)
         public string BookName { get; set; } // BookName (length: 50)
         public string BookAuthorName { get; set; } // BookAuthorName (length: 50)

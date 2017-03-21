@@ -63,7 +63,7 @@ namespace EbuyProject.Controllers
             return View(AutoMapper.Mapper.Map<BookViewModel>(await Service.GetAsync(id)));
         }
         [HttpPost, ActionName("Edit")]
-        public async Task<ActionResult> Edit([Bind(Include = "BookName,BookAuthorName,BookAuthorSurname,BookISBN,BookGenre,BookDescription,BookPrice")] BookViewModel book)
+        public async Task<ActionResult> Edit([Bind(Include = "BookId,BookName,BookAuthorName,BookAuthorSurname,BookISBN,BookGenre,BookDescription,BookPrice")] BookViewModel book)
         {
             if (ModelState.IsValid)
             {

@@ -41,15 +41,15 @@ namespace Ebuy.Repository
         //   return await Context.Set<TEntity>().ToListAsync();
         //}
 
-        public async Task<int> RemoveAsync(TEntity entity)
-        {
-            Context.Set<TEntity>().Remove(entity);
-            return await Context.SaveChangesAsync();
-        }
+        //public async Task<int> RemoveAsync(TEntity entity)
+        //{
+        //    Context.Set<TEntity>().Remove(entity);
+        //    return await Context.SaveChangesAsync();
+        //}
 
         public async Task<int> UpdateAsync(TEntity entity)
         {
-            Context.Entry(entity).State = EntityState.Modified;
+            Context.Set<TEntity>().Add(entity);
             return await Context.SaveChangesAsync();
         }
     }
