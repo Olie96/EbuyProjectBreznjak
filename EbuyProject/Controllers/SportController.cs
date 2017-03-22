@@ -77,7 +77,7 @@ namespace EbuyProject.Controllers
         }
 
         [HttpPost, ActionName("Edit")]
-        public async Task<ActionResult> Edit([Bind(Include = "SportPartId,SportItemName,SportItemPrice,SportItemDescription")] SportViewModel sport)
+        public async Task<ActionResult> Edit([Bind(Include = "SportItemId,SportItemName,SportItemPrice,SportItemDescription")] SportViewModel sport)
         {
             if (ModelState.IsValid)
             {
